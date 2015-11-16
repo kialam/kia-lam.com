@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kia Lam // Creative Developer</title>
+    <meta name="author" content="Kia Lam" />
+    <meta name="description" content="Creative Developer Portfolio" />
+    <meta name="keywords"  content="creative developer, portfolio, front end developer, html, css, js, python, php" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
+
+    <style>
+        /* Reset CSS
+         * --------------------------------------- */
+        html {
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+        form,fieldset,input,textarea,p,blockquote,th,td {
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration:none;
+        }
+        table {
+            border-spacing: 0;
+        }
+        fieldset,img {
+            border: 0;
+        }
+        address,caption,cite,code,dfn,em,strong,th,var {
+            font-weight: normal;
+            font-style: normal;
+        }
+        strong{
+            font-weight: bold;
+        }
+        ol,ul {
+            list-style: none;
+            margin:0;
+            padding:0;
+        }
+        caption,th {
+            text-align: left;
+
+        }
+        h1,h2,h3,h4,h5,h6 {
+            font-weight: normal;
+            font-size: 100%;
+            margin:0;
+            padding:0;
+            color:#444;
+        }
+        q:before,q:after {
+            content:'';
+        }
+        abbr,acronym { border: 0;
+        }
+
+
+        /* Custom CSS
+         * --------------------------------------- */
+        body{
+            font-family: arial,helvetica;
+            color: #F2F2F2;
+        }
+        h1{
+            font-size: 6em;
+        }
+        h2 {
+            color: #777;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        p{
+            font-size: 2em;
+        }
+        .content{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            min-height: 500px;
+        }
+
+        /* Section 1
+         * --------------------------------------- */
+        #section0{
+            /*background-color: #BFDA00;*/
+            background-color: black;
+        }
+        #section0 h1{
+            /*color: #444;*/
+        }
+        #section0 p{
+            /*color: #333;*/
+            /*opacity: 0.4;*/
+        }
+
+
+        /* Section 2
+         * --------------------------------------- */
+        #section1{
+            background-color: #2EBE21;
+        }
+        #section1 h1{
+            color: #fff;
+        }
+        #section1 p{
+            opacity: 0.8;
+        }
+
+
+        /* Section 3
+         * --------------------------------------- */
+        #section2{
+            background-color: #2C3E50;
+        }
+        #section2 h1{
+            color: #F2F2F2;
+        }
+        #section2 p{
+            opacity: 0.6;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+<div id="fullpage">
+    <div class="section " id="section0">
+        <img class="logo" src="img/logo.png">
+        <div class="info">
+            <h2>Contact Me:</h2>
+            <ul>
+                <a href="https://www.linkedin.com/in/kialamsf" target="_blank"><li>LinkedIn</li></a>
+                <a href="https://github.com/kialam" target="_blank"><li>Github</li></a>
+                <a href="https://twitter.com/kia_lam" target="_blank"><li>Twitter</li></a>
+            </ul>
+            <h2>Download Resume</h2>
+        </div>
+        <div class="content">
+            <h1 class="welcome">Welcome</h1>
+            <p>My name is <span class="name">Kia Lam</span> and I'm a Creative Developer working in San Francisco.</p>
+            <p>Here are a few projects I've worked on.</p>
+            <!-- <svg class="svg-graphic" width="180" height="200" viewBox="0 0 560 645" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1">
+                <g>
+                   <clipPath id="hexagonal-mask">
+                      <polygon points="130,0 0,160 0,485 270,645 560,485 560,160" />
+                   </clipPath>
+                </g> 
+            </svg> -->
+            <div class="polygons">
+                <div class="work hex1"></div>
+                <div class="work hex2"></div>
+                <div class="work hex3"></div>
+                <div class="work hex4"></div>
+                <div class="work hex5"></div>
+                <div class="work hex6"></div>
+            </div>
+          <!--   <div id="hexagon" class="one"><div class="project">Hi</div></div>
+            <div id="hexagon" class="two"><div class="project">Hi</div></div>
+            <div id="hexagon" class="three"><div class="project">Hi</div></div>
+            <div id="hexagon" class="four"><div class="project">Hi</div></div>
+            <div id="hexagon" class="five"><div class="project">Hi</div></div>
+ -->
+            <img class="arrow" src="img/arrow.gif" />
+        </div>
+    </div>
+     
+    <div class="section" id="section4">
+        <div class="slide" id="slide1">
+            <div class="content">
+                <h1>Give the Gift of a Gif</h1>
+                <p>
+                    This site allows you to give the gift of a gif to your loved ones and friends.
+                </p>
+                <p>
+                    Users are greeted with a set of cubes containing randomly generated gifs, hoping to help insipire the gift-giving spirit. They can then search for a gif to give via a keyword search and said gif(t) is delivered to their chosen recipient via the sophiscated means of an email. 
+                </p>
+                <p>
+                    Built with html, css, js, python, flask
+                </p>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="video-container">
+                <iframe src="//player.vimeo.com/video/109257299?title=0&amp;byline=0&amp;portrait=0" width="800" height="501" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="content">
+                <h1>Slides too!</h1>
+                
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="content">
+                <div class="lightbox"><img src="img/gift1.png"></div>
+                <div class="lightbox"><img src="img/gift2.png"></div>
+                <div class="lightbox"><img src="img/gift3.png"></div>
+                <div class="lightbox"><img src="img/gift4.png"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section5">
+        <div class="slide" id="slide1">
+            <div class="content">
+                <h1>Delaunay Heart</h1>
+                <p>
+                    Delaunay Heart, or Esprit du Coeur, is an "Out of Body" art installation that was presented and featured as part of Goodby Silverstein and Partners' 2015 Year End Holiday Party.
+                </p>
+                <p>
+                    Built with c++, processing, arduino, projection mapping, glue, pen & ink
+                </p>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/119144875?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/119144874?title=0&byline=0&portrait=0" width="500" height="889" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section6">
+        <div class="slide" id="slide1">
+            <div class="content">
+                <h1>IKIGMPW</h1>
+                <p>
+                    What started as a social experiment quickly transmorgrified into a site that crowdsources the collective woes of being a woman via Twitter and gifs.
+                </p>
+                <p>
+                    This site draws tweets related to that oh-so-fun time of the month and pairs them with gifs generated based on those tweets. The experience is collective, emotive and aims to provide comedic relief during a not so fun time in every female's life.
+                </p>
+                <p>Built with html, css, js, python, flask
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/145806911?title=0&byline=0&portrait=0" width="500" height="294" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="content">
+                <h1>Slides too!</h1>
+                
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="content">
+                <img src="img/period1.png">
+                <img src="img/period2.png">
+                <img src="img/period3.png">
+                <img src="img/period4.png">
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section1">
+        <div class="slide" id="slide1">
+            <div class="content">
+                <h1>Adobe Lights</h1>
+                <p>
+                    As part of the Adobe Remix Project, we re-created Adobe's logo as a physical installation with 100 handmade cubes, each one correlating to an artist using Adobe software in real time.
+                </p>
+                <p>
+                    The installation is a representation of the global community of artists and designers who work everyday, with the Adobe suite of products.
+                </p>
+                <p>
+                    Built with html, css, js
+                </p>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="video-container">
+                <iframe src="//player.vimeo.com/video/109257973?title=0&amp;byline=0&amp;portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="content">
+                <h1>Slides too!</h1>
+
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="content">
+                <!-- <h1>More slides!</h1> -->
+                <img src="img/adobe0.jpg">
+                <img src="img/adobe1.jpg">
+                <img src="img/adobe2.png">
+                <img src="img/adobe3.png">
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="slide" id="slide1">
+            <div class="content">
+                <h1>Cisco Connected Billboard</h1>
+                <p>
+                    Cisco took a digital billboard on Silicon Valley's busiest stretch of freeway and used APIs that "talk" to real-time traffic sensors, maps and a <br />back-end network.
+                </p>
+                <p>
+                    When traffic was moving fast, drivers saw a quick headline. But when traffic slowed down during rush hour, they saw a longer message. And they saw an even longer one when it was at a standstill.
+                </p>
+                <p>
+                    It was a first-of-its kind connected billboard, and it provided a glimpse into the future of advertising.
+                </p>
+                <p>
+                    Built with python, bing api
+                </p>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/109257644?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="content">
+                <h1>Slides too!</h1>
+
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="content">
+                <img src="img/cisco1.jpg">
+                <img src="img/cisco2.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="slide" id="slide1">
+            <div class="content">
+                <h1>Gala Contemplating You</h1>
+                <p>
+                    The installation is inspired by Dalí's 1976 painting Gala Contemplating the Mediterranean Sea Which at Twenty Meters Becomes the Portrait of Abraham Lincoln (Homage to Rothko), which famously proved that 121 pixels was the minimum pixilation at which the brain is able to identify a particular human face.
+                </p>
+                <p>
+                    A photo kiosk at the Museum turned visitors’ self-portraits into pixelated replications of the original artwork and projects these new images alongside the original monumental canvas. A corresponding mobile website (galacontemplatingyou.com) allowed virtual visitors – from anywhere around the globe – to submit their photos and become part of the artwork as well.
+                </p>
+                <p>
+                    Built with html, css, js, node.js
+                </p>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="video-container">
+                <iframe scrolling="no" allowfullscreen="" src="//www.youtube.com/embed/VLD8JXeJNUw?feature=youtu.be&amp;wmode=opaque&amp;enablejsapi=1&amp;autoplay=0" width="854" frameborder="0" height="480" id="yui_3_17_2_1_1447040414506_443" style="opacity: 1;">
+                </iframe>
+            </div>
+            <div class="content">
+                <h1>Slides too!</h1>
+
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="content">
+                <img src="img/gala1.jpg">
+                <img src="img/gala2.png">
+                <img src="img/gala3.png">
+                <img src="img/gala4.jpg">
+                <img src="img/gala5.gif">
+            </div>
+        </div>
+    </div>
+    
+    </div>
+</div>
+
+<script type="text/javascript" src="javascript.fullPage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript">
+    fullpage.initialize('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        css3:true
+    });
+
+</script>
+
+</body>
+</html>
