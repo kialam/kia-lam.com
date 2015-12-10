@@ -9,7 +9,7 @@
     <meta name="keywords"  content="creative developer, portfolio, front end developer, html, css, js, python, php" />
     <meta name="Resource-type" content="Document" />
 
-
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
 
     <style>
@@ -145,12 +145,14 @@
                 <a href="https://github.com/kialam" target="_blank"><li>Github</li></a>
                 <a href="https://twitter.com/kia_lam" target="_blank"><li>Twitter</li></a>
             </ul>
-            <h2>Download Resume</h2>
+            <a href="assets/kia-lam-resume.pdf" target="_blank"><h2 class="download">Download Resume</h2></a>
         </div>
         <div class="content">
             <h1 class="welcome">Welcome</h1>
-            <p>My name is <span class="name">Kia Lam</span> and I'm a Creative Developer working in San Francisco.</p>
-            <p>Here are a few projects I've worked on.</p>
+            <p class="welcome">My name is <span class="name">Kia Lam</span> and I'm a Creative Developer working in San Francisco.
+                <br />Here are a few projects I've worked on.
+            </p>
+            <!-- <p class="welcome">Here are a few projects I've worked on.</p> -->
             <!-- <svg class="svg-graphic" width="180" height="200" viewBox="0 0 560 645" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1">
                 <g>
                    <clipPath id="hexagonal-mask">
@@ -159,12 +161,12 @@
                 </g> 
             </svg> -->
             <div class="polygons">
-                <div class="work hex1"></div>
-                <div class="work hex2"></div>
-                <div class="work hex3"></div>
-                <div class="work hex4"></div>
-                <div class="work hex5"></div>
-                <div class="work hex6"></div>
+                <a href="#secondPage"><div class="work hex1"></div></a>
+                <a href="#3rdPage"><div class="work hex2"></div></a>
+                <a href="#4thpage"><div class="work hex3"></div></a>
+                <a href="#5thpage"><div class="work hex4"></div></a>
+                <a href="#6thpage"><div class="work hex5"></div></a>
+                <a href="#7thpage"><div class="work hex6"></div></a>
             </div>
           <!--   <div id="hexagon" class="one"><div class="project">Hi</div></div>
             <div id="hexagon" class="two"><div class="project">Hi</div></div>
@@ -172,7 +174,7 @@
             <div id="hexagon" class="four"><div class="project">Hi</div></div>
             <div id="hexagon" class="five"><div class="project">Hi</div></div>
  -->
-            <img class="arrow" src="img/arrow.gif" />
+            <a href="#secondPage"><img class="arrow" src="img/arrow.gif" /></a>
         </div>
     </div>
      
@@ -195,17 +197,17 @@
             <div class="video-container">
                 <iframe src="//player.vimeo.com/video/109257299?title=0&amp;byline=0&amp;portrait=0" width="800" height="501" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            <div class="content">
+            <!-- <div class="content">
                 <h1>Slides too!</h1>
                 
-            </div>
+            </div> -->
         </div>
         <div class="slide" id="slide2">
             <div class="content">
-                <div class="lightbox"><img src="img/gift1.png"></div>
-                <div class="lightbox"><img src="img/gift2.png"></div>
-                <div class="lightbox"><img src="img/gift3.png"></div>
-                <div class="lightbox"><img src="img/gift4.png"></div>
+                <a class="fancybox" href="img/gift1.png"><img src="img/gift1.png"></a>
+                <a class="fancybox" href="img/gift2.png"><img src="img/gift2.png"></a>
+                <a class="fancybox" href="img/gift3.png"><img src="img/gift3.png"></a>
+                <a class="fancybox" href="img/gift4.png"><img src="img/gift4.png"></a>
             </div>
         </div>
     </div>
@@ -242,24 +244,24 @@
                 <p>
                     This site draws tweets related to that oh-so-fun time of the month and pairs them with gifs generated based on those tweets. The experience is collective, emotive and aims to provide comedic relief during a not so fun time in every female's life.
                 </p>
-                <p>Built with html, css, js, python, flask
+                <p>Built with html, css, js, python, flask</p>
             </div>
         </div>
         <div class="slide" id="slide2">
             <div class="video-container">
                 <iframe src="https://player.vimeo.com/video/145806911?title=0&byline=0&portrait=0" width="500" height="294" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            <div class="content">
+            <!-- <div class="content">
                 <h1>Slides too!</h1>
                 
-            </div>
+            </div> -->
         </div>
         <div class="slide" id="slide2">
             <div class="content">
-                <img src="img/period1.png">
-                <img src="img/period2.png">
-                <img src="img/period3.png">
-                <img src="img/period4.png">
+                <a class="fancybox" href="img/period1.png"><img src="img/period1.png"></a>
+                <a class="fancybox" href="img/period2.png"><img src="img/period2.png"></a>
+                <a class="fancybox" href="img/period3.png"><img src="img/period3.png"></a>
+                <a class="fancybox" href="img/period4.png"><img src="img/period4.png"></a>
             </div>
         </div>
     </div>
@@ -282,18 +284,18 @@
             <div class="video-container">
                 <iframe src="//player.vimeo.com/video/109257973?title=0&amp;byline=0&amp;portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            <div class="content">
+            <!-- <div class="content">
                 <h1>Slides too!</h1>
 
-            </div>
+            </div> -->
         </div>
-        <div class="slide" id="slide2">
+        <div class="slide" id="slide3">
             <div class="content">
                 <!-- <h1>More slides!</h1> -->
-                <img src="img/adobe0.jpg">
-                <img src="img/adobe1.jpg">
-                <img src="img/adobe2.png">
-                <img src="img/adobe3.png">
+                <a class="fancybox" href="img/adobe0.jpg"><img src="img/adobe0.jpg"></a>
+                <a class="fancybox" href="img/adobe1.jpg"><img src="img/adobe1.jpg"></a>
+                <a class="fancybox" href="img/adobe2.png"><img src="img/adobe2.png"></a>
+                <a class="fancybox" href="img/adobe3.png"><img src="img/adobe3.png"></a>
             </div>
         </div>
     </div>
@@ -319,15 +321,15 @@
             <div class="video-container">
                 <iframe src="https://player.vimeo.com/video/109257644?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            <div class="content">
+            <!-- <div class="content">
                 <h1>Slides too!</h1>
 
-            </div>
+            </div> -->
         </div>
-        <div class="slide" id="slide2">
+        <div class="slide" id="slide3">
             <div class="content">
-                <img src="img/cisco1.jpg">
-                <img src="img/cisco2.jpg">
+                <a class="fancybox" href="img/cisco1.jpg"><img src="img/cisco1.jpg"></a>
+                <a class="fancybox" href="img/cisco2.jpg"><img src="img/cisco2.jpg"></a>
             </div>
         </div>
     </div>
@@ -351,35 +353,39 @@
                 <iframe scrolling="no" allowfullscreen="" src="//www.youtube.com/embed/VLD8JXeJNUw?feature=youtu.be&amp;wmode=opaque&amp;enablejsapi=1&amp;autoplay=0" width="854" frameborder="0" height="480" id="yui_3_17_2_1_1447040414506_443" style="opacity: 1;">
                 </iframe>
             </div>
-            <div class="content">
+           <!--  <div class="content">
                 <h1>Slides too!</h1>
 
-            </div>
+            </div> -->
         </div>
-        <div class="slide" id="slide2">
+        <div class="slide" id="slide3">
             <div class="content">
-                <img src="img/gala1.jpg">
-                <img src="img/gala2.png">
-                <img src="img/gala3.png">
-                <img src="img/gala4.jpg">
-                <img src="img/gala5.gif">
+                <a class="fancybox" href="img/gala1.jpg"><img src="img/gala1.jpg"></a>
+                <a class="fancybox" href="img/gala2.png"><img src="img/gala2.png"></a>
+                <a class="fancybox" href="img/gala3.png"><img src="img/gala3.png"></a>
+                <a class="fancybox" href="img/gala4.jpg"><img src="img/gala4.jpg"></a>
+                <a class="fancybox" href="img/gala5.gif"><img src="img/gala5.gif"></a>
             </div>
         </div>
     </div>
     
-    </div>
+    <!-- </div> -->
 </div>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="javascript.fullPage.js"></script>
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
 <script type="text/javascript">
     fullpage.initialize('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-        menu: '#menu',
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage'],
+        // menu: '#menu',
         css3:true
     });
-
+    $(".fancybox").fancybox({
+    //     // openEffect  : 'none',
+    //     // closeEffect : 'none'
+    });
 </script>
 
 </body>

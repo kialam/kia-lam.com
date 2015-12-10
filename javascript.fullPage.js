@@ -178,7 +178,7 @@
             showError('error', 'Error! Fullpage.js needs to be initialized with a selector. For example: fullpage(\'#fullpage\');');
         }
 
-        setMouseWheelScrolling(false);
+        setMouseWheelScrolling(true);
         addTouchHandler();
         addResizeHandler();
         addScrollHandler();
